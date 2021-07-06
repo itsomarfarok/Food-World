@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .text_color{
+        color: orange;
+    }
+    .top_banner{
+        display: flex;
+        padding: 5%;
+    }
+    .content_area{
+        width: 50%;
+        padding: 2%;
+    }
+    .text{
+        padding-top: 160px;
+    }
+    .button{
+        background-image: linear-gradient(45deg, orange, tomato );
+        padding: 10px 40px;
+        text-decoration: none;
+        border-radius: 45px;
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
+        margin-top: 22px;
+        display: inline-block;
+
+    } 
+    
+    .background{
+        background-image: url(images/shapes/7.png);
+        background-repeat: no-repeat;
+    }
+    .person_image{
+       width: 57%;
+       margin-left: 20%;
+
+    }
+    .my_items{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+    .food-item{
+        height: 500px;
+        width: 30%;
+        text-align: justify;
+        padding: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        box-shadow: 3px 3px 20px gray;
+        border-radius: 25px;
+
+
+    }
+    .food-item img{
+        height: 280px;
+        width: 350px;
+
+    }
+    .count-num{
+        width: 30%;
+        padding-left: 8%;
+    }
+    .counter{
+        margin: auto;
+        width: 85%;
+        border-radius: 25px;
+        box-shadow: 2px 2px 15px gray;  
+        margin-bottom: 110px; 
+        margin-top: 50px;     
+    }
+    footer{
+        text-align: center;
+        background-color: #FE4C2E;
+        color: white;
+        padding: 50px;
